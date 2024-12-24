@@ -1,0 +1,9 @@
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/uninstall.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/two_wheel_drive_uninstall.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/test.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/edit_cache.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/rebuild_cache.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/list_install_components.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/install.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/install/local.dir
+/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/CMakeFiles/install/strip.dir

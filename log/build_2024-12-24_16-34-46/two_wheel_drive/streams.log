@@ -1,0 +1,145 @@
+[0.008s] Invoking command in '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/shivansh/IGVC_robotics_club_iitk/src/two_wheel_drive -DCMAKE_INSTALL_PREFIX=/home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.312s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.411s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.534s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.655s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.659s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.669s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.732s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.858s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.898s] -- Looking for pthread.h
+[0.971s] -- Looking for pthread.h - found
+[0.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.040s] -- Found Threads: TRUE  
+[1.082s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.093s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.107s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.117s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.118s] -- Checking for module 'bullet>=2.82'
+[1.136s] --   Found bullet, version 3.05
+[1.270s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.337s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.371s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.393s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.409s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.417s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.429s] -- Searching for dependencies of ignition-math6
+[1.431s] -- Looking for OGRE...
+[1.431s] -- OGRE_PREFIX_WATCH changed.
+[1.436s] -- Checking for module 'OGRE'
+[1.453s] --   Found OGRE, version 1.9.0
+[1.498s] -- Found Ogre Ghadamon (1.9.0)
+[1.507s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.516s] -- Looking for OGRE_Paging...
+[1.520s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.520s] -- Looking for OGRE_Terrain...
+[1.524s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.524s] -- Looking for OGRE_Property...
+[1.528s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.528s] -- Looking for OGRE_RTShaderSystem...
+[1.531s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.531s] -- Looking for OGRE_Volume...
+[1.535s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.535s] -- Looking for OGRE_Overlay...
+[1.538s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.607s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.609s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.609s] -- Searching for dependencies of ignition-transport8
+[1.621s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.628s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.633s] -- Checking for module 'libzmq >= 4'
+[1.646s] --   Found libzmq , version 4.3.4
+[1.692s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.700s] -- Checking for module 'uuid'
+[1.717s] --   Found uuid, version 2.37.2
+[1.761s] -- Found UUID: TRUE  
+[1.765s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.765s] -- Searching for dependencies of ignition-msgs5
+[1.784s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.789s] -- Checking for module 'tinyxml2'
+[1.804s] --   Found tinyxml2, version 9.0.0
+[1.850s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.856s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.857s] -- Searching for dependencies of ignition-common3
+[1.857s] -- Looking for dlfcn.h - found
+[1.859s] -- Looking for libdl - found
+[1.861s] -- Found DL: TRUE  
+[1.873s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.874s] -- Searching for <ignition-common3> component [graphics]
+[1.877s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.878s] -- Searching for dependencies of ignition-common3-graphics
+[1.878s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.881s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.882s] -- Searching for dependencies of ignition-fuel_tools4
+[1.984s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.997s] -- Checking for module 'jsoncpp'
+[2.013s] --   Found jsoncpp, version 1.9.5
+[2.057s] -- Found JSONCPP: TRUE  
+[2.066s] -- Checking for module 'libzip'
+[2.083s] --   Found libzip, version 1.7.3
+[2.128s] -- Found ZIP: TRUE  
+[2.129s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.129s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.130s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.136s] -- Gazebo version: 11.10
+[2.137s] -- Checking for module 'tbb'
+[2.155s] --   Found tbb, version 2021.5.0
+[2.199s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.213s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.214s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.214s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.318s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.383s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.385s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.385s] -- Added test 'lint_cmake' to check CMake code style
+[2.385s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.386s] -- Added test 'xmllint' to check XML markup files
+[2.387s] -- Configuring done
+[2.390s] -- Generating done
+[2.392s] -- Build files have been written to: /home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive
+[2.402s] Invoked command in '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/shivansh/IGVC_robotics_club_iitk/src/two_wheel_drive -DCMAKE_INSTALL_PREFIX=/home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive
+[2.403s] Invoking command in '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive -- -j12 -l12
+[2.435s] Invoked command in '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive -- -j12 -l12
+[2.443s] Invoking command in '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive
+[2.447s] -- Install configuration: ""
+[2.447s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch
+[2.447s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/robot.launch.py
+[2.447s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/.vscode
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/.vscode/settings.json
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/.vscode/c_cpp_properties.json
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/urdf
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/urdf/robot.urdf
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/ament_index/resource_index/package_run_dependencies/two_wheel_drive
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/ament_index/resource_index/parent_prefix_path/two_wheel_drive
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/ament_prefix_path.sh
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/ament_prefix_path.dsv
+[2.448s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/path.sh
+[2.449s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/path.dsv
+[2.449s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.bash
+[2.449s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.sh
+[2.449s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.zsh
+[2.449s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.dsv
+[2.449s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/package.dsv
+[2.450s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/ament_index/resource_index/packages/two_wheel_drive
+[2.450s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/cmake/two_wheel_driveConfig.cmake
+[2.450s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/cmake/two_wheel_driveConfig-version.cmake
+[2.450s] -- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/package.xml
+[2.451s] Invoked command in '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive

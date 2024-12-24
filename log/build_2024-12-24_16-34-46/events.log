@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (two_wheel_drive) JobQueued: {'identifier': 'two_wheel_drive', 'dependencies': OrderedDict()}
+[0.000277] (two_wheel_drive) JobStarted: {'identifier': 'two_wheel_drive'}
+[0.006042] (two_wheel_drive) JobProgress: {'identifier': 'two_wheel_drive', 'progress': 'cmake'}
+[0.006385] (two_wheel_drive) Command: {'cmd': ['/usr/bin/cmake', '/home/shivansh/IGVC_robotics_club_iitk/src/two_wheel_drive', '-DCMAKE_INSTALL_PREFIX=/home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive'], 'cwd': '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivansh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivansh'), ('OLDPWD', '/home/shivansh/IGVC_robotics_club_iitk'), ('DESKTOP_SESSION', 'ubuntu'), ('LIBGL_DRI3_DISABLE', '0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1672'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11262'), ('INTEL_DEBUG', 'norender'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivansh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivansh'), ('JOURNAL_STREAM', '8:19540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivansh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shivansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivansh-750XGK:@/tmp/.ICE-unix/1822,unix/shivansh-750XGK:/tmp/.ICE-unix/1822'), ('INVOCATION_ID', 'd9a9e61dc5cc473fba1bb8284378cd77'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GL93Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivansh/ros2_ws/install/my_robot_controller:/home/shivansh/ros2_ws/install/diff_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2d67b7b5-0beb-4e0b-a19a-4c197dd08179'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivansh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivansh/ros2_ws/install/diff_robot:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.099499] (-) TimerEvent: {}
+[0.129035] (two_wheel_drive) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199604] (-) TimerEvent: {}
+[0.228563] (two_wheel_drive) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.236192] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299709] (-) TimerEvent: {}
+[0.303412] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.311529] (two_wheel_drive) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.312167] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.312725] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.316054] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399814] (-) TimerEvent: {}
+[0.406241] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.411204] (two_wheel_drive) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.411479] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.411756] (two_wheel_drive) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.413976] (two_wheel_drive) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500020] (-) TimerEvent: {}
+[0.534151] (two_wheel_drive) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600250] (-) TimerEvent: {}
+[0.606683] (two_wheel_drive) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.654901] (two_wheel_drive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.659126] (two_wheel_drive) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.669517] (two_wheel_drive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.679883] (two_wheel_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.692682] (two_wheel_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700471] (-) TimerEvent: {}
+[0.727566] (two_wheel_drive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.732644] (two_wheel_drive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800665] (-) TimerEvent: {}
+[0.832368] (two_wheel_drive) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.858398] (two_wheel_drive) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.890758] (two_wheel_drive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.898096] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900758] (-) TimerEvent: {}
+[0.971335] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.971579] (two_wheel_drive) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000991] (-) TimerEvent: {}
+[1.039732] (two_wheel_drive) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.040468] (two_wheel_drive) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.081728] (two_wheel_drive) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.092812] (two_wheel_drive) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101204] (-) TimerEvent: {}
+[1.107638] (two_wheel_drive) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.117024] (two_wheel_drive) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.118463] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.135823] (two_wheel_drive) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.201444] (-) TimerEvent: {}
+[1.270324] (two_wheel_drive) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.301603] (-) TimerEvent: {}
+[1.337535] (two_wheel_drive) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.371031] (two_wheel_drive) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.393218] (two_wheel_drive) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.401754] (-) TimerEvent: {}
+[1.408716] (two_wheel_drive) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.417019] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.428904] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.431031] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.431284] (two_wheel_drive) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.436565] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.452910] (two_wheel_drive) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.497888] (two_wheel_drive) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.501877] (-) TimerEvent: {}
+[1.506884] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.516309] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.520555] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.520753] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.524271] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.524476] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.527785] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.527978] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.531243] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.531396] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.534742] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.534902] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.538280] (two_wheel_drive) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.602094] (-) TimerEvent: {}
+[1.607496] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.609204] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.609485] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.621480] (two_wheel_drive) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.628678] (two_wheel_drive) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.632916] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.645757] (two_wheel_drive) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.691748] (two_wheel_drive) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.699868] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.702328] (-) TimerEvent: {}
+[1.716717] (two_wheel_drive) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.760720] (two_wheel_drive) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.765098] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.765651] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.784689] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.788885] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.802464] (-) TimerEvent: {}
+[1.804301] (two_wheel_drive) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.850484] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.855948] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.856901] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.857493] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.858950] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.861151] (two_wheel_drive) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.873499] (two_wheel_drive) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.874354] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.877368] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.877942] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.878276] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.881660] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.881960] (two_wheel_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.902721] (-) TimerEvent: {}
+[1.984061] (two_wheel_drive) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.996803] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.002839] (-) TimerEvent: {}
+[2.013197] (two_wheel_drive) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.057171] (two_wheel_drive) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.066085] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.083308] (two_wheel_drive) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.103057] (-) TimerEvent: {}
+[2.128434] (two_wheel_drive) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.129093] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.129516] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.130268] (two_wheel_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.136538] (two_wheel_drive) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.136907] (two_wheel_drive) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.155431] (two_wheel_drive) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.199273] (two_wheel_drive) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[2.203315] (-) TimerEvent: {}
+[2.212931] (two_wheel_drive) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.214150] (two_wheel_drive) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.214335] (two_wheel_drive) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.303538] (-) TimerEvent: {}
+[2.318350] (two_wheel_drive) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.383450] (two_wheel_drive) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.384932] (two_wheel_drive) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.385241] (two_wheel_drive) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.385668] (two_wheel_drive) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.386554] (two_wheel_drive) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.387346] (two_wheel_drive) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.390489] (two_wheel_drive) StdoutLine: {'line': b'-- Generating done\n'}
+[2.392496] (two_wheel_drive) StdoutLine: {'line': b'-- Build files have been written to: /home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive\n'}
+[2.400354] (two_wheel_drive) CommandEnded: {'returncode': 0}
+[2.402621] (two_wheel_drive) JobProgress: {'identifier': 'two_wheel_drive', 'progress': 'build'}
+[2.402660] (two_wheel_drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive', '--', '-j12', '-l12'], 'cwd': '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivansh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivansh'), ('OLDPWD', '/home/shivansh/IGVC_robotics_club_iitk'), ('DESKTOP_SESSION', 'ubuntu'), ('LIBGL_DRI3_DISABLE', '0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1672'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11262'), ('INTEL_DEBUG', 'norender'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivansh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivansh'), ('JOURNAL_STREAM', '8:19540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivansh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shivansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivansh-750XGK:@/tmp/.ICE-unix/1822,unix/shivansh-750XGK:/tmp/.ICE-unix/1822'), ('INVOCATION_ID', 'd9a9e61dc5cc473fba1bb8284378cd77'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GL93Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivansh/ros2_ws/install/my_robot_controller:/home/shivansh/ros2_ws/install/diff_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2d67b7b5-0beb-4e0b-a19a-4c197dd08179'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivansh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivansh/ros2_ws/install/diff_robot:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[2.403663] (-) TimerEvent: {}
+[2.435190] (two_wheel_drive) CommandEnded: {'returncode': 0}
+[2.436508] (two_wheel_drive) JobProgress: {'identifier': 'two_wheel_drive', 'progress': 'install'}
+[2.441698] (two_wheel_drive) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive'], 'cwd': '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivansh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivansh'), ('OLDPWD', '/home/shivansh/IGVC_robotics_club_iitk'), ('DESKTOP_SESSION', 'ubuntu'), ('LIBGL_DRI3_DISABLE', '0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1672'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11262'), ('INTEL_DEBUG', 'norender'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivansh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivansh'), ('JOURNAL_STREAM', '8:19540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivansh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shivansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shivansh-750XGK:@/tmp/.ICE-unix/1822,unix/shivansh-750XGK:/tmp/.ICE-unix/1822'), ('INVOCATION_ID', 'd9a9e61dc5cc473fba1bb8284378cd77'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GL93Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivansh/ros2_ws/install/my_robot_controller:/home/shivansh/ros2_ws/install/diff_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2d67b7b5-0beb-4e0b-a19a-4c197dd08179'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shivansh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shivansh/ros2_ws/install/diff_robot:/home/shivansh/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[2.447210] (two_wheel_drive) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.447459] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch\n'}
+[2.447571] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/robot.launch.py\n'}
+[2.447659] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/.vscode\n'}
+[2.447858] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/.vscode/settings.json\n'}
+[2.447968] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/launch/.vscode/c_cpp_properties.json\n'}
+[2.448061] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/urdf\n'}
+[2.448148] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/urdf/robot.urdf\n'}
+[2.448234] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/ament_index/resource_index/package_run_dependencies/two_wheel_drive\n'}
+[2.448318] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/ament_index/resource_index/parent_prefix_path/two_wheel_drive\n'}
+[2.448404] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/ament_prefix_path.sh\n'}
+[2.448489] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/ament_prefix_path.dsv\n'}
+[2.448728] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/path.sh\n'}
+[2.448834] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/environment/path.dsv\n'}
+[2.448920] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.bash\n'}
+[2.449002] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.sh\n'}
+[2.449084] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.zsh\n'}
+[2.449315] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/local_setup.dsv\n'}
+[2.449648] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/package.dsv\n'}
+[2.449867] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/ament_index/resource_index/packages/two_wheel_drive\n'}
+[2.449954] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/cmake/two_wheel_driveConfig.cmake\n'}
+[2.450040] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/cmake/two_wheel_driveConfig-version.cmake\n'}
+[2.450158] (two_wheel_drive) StdoutLine: {'line': b'-- Installing: /home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive/share/two_wheel_drive/package.xml\n'}
+[2.450639] (two_wheel_drive) CommandEnded: {'returncode': 0}
+[2.460981] (two_wheel_drive) JobEnded: {'identifier': 'two_wheel_drive', 'rc': 0}
+[2.461533] (-) EventReactorShutdown: {}
