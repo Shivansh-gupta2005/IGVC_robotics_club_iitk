@@ -17,7 +17,14 @@ find_package(robot_state_publisher REQUIRED)
 # Install launch files
 install(DIRECTORY
   launch
+  config
+  worlds
   urdf
+  urdf/meshes
+  urdf/models
+  urdf/textures
+  urdf/worlds
+  worlds/test
   DESTINATION share/${PROJECT_NAME}
 )
 
