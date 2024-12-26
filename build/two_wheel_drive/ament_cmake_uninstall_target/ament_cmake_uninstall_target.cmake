@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/shivansh/IGVC_robotics_club_iitk/install/two_wheel_drive")
+  set(install_space "/home/ronit/ros2_ws/IGVC_robotics_club_iitk-main/install/two_wheel_drive")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/shivansh/IGVC_robotics_club_iitk/build/two_wheel_drive/install_manifest.txt")
+set(install_manifest "/home/ronit/ros2_ws/IGVC_robotics_club_iitk-main/build/two_wheel_drive/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
