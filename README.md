@@ -8,7 +8,7 @@ After cloning the repo
 ```rm -rf build log```
 
 4) Export command to properly load the world  
-```export GAZEBO_MODEL_PATH=/<path>/<to_your>/<workspace_from_root_directory>/src/two_wheel_drive:$GAZEBO_MODEL_PATH```
+```export GAZEBO_MODEL_PATH=/<path>/<to_your>/<workspace_from_home_directory>/src/two_wheel_drive:$GAZEBO_MODEL_PATH```
 
 5) build the workspace  
 ```colcon build --symlink-install```
