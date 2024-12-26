@@ -13,8 +13,6 @@ def generate_launch_description():
     
     # Specify the path to the URDF file
     urdf_file = os.path.join(pkg_share, 'urdf', 'robot.urdf')
-    #specify the path to the gazebo world file
-    world_file = os.path.join(pkg_share, 'urdf/worlds', 'autonav.world')
     
     # Robot state publisher node
     robot_state_publisher = Node(
@@ -32,8 +30,7 @@ def generate_launch_description():
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             os.path.join(get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')
-        ]),
-        launch_arguments={'world': world_file}.items()
+        ])
     )
     
     # Spawn robot
@@ -42,8 +39,7 @@ def generate_launch_description():
         executable='spawn_entity.py',
         arguments=[
             '-topic', 'robot_description',
-            '-entity', 'two_wheel_robot',
-            '-x', '0', '-y', '23', '-z', '0'  # Add z=0.2 to spawn above the ground
+            '-entity', 'two_wheel_robot'
         ]
     )
     
