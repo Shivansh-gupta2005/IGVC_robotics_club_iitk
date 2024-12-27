@@ -19,5 +19,10 @@ After cloning the repo
 7) launch  
 ```ros2 launch two_wheel_drive robot.launch.py```
 
-For viewing the RGB-D camera's live feed run this node
+8) For viewing the RGB-D camera's live feed run this node
 ```python3 src/depth_camera_subscriber.py```
+
+9) start ekf filter or ukf filter on imu and odom and gps
+```ros2 launch robot_localization ekf.launch.py```
+```ros2 launch robot_localization navsat_transform.launch.py```
+
