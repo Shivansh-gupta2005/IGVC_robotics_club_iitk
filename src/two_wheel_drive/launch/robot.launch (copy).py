@@ -23,7 +23,8 @@ def generate_launch_description():
                 Command(['cat ', urdf_file]),
                 value_type=str
             )
-        }]
+        }],
+        'use_sim_time': True  # Ensure simulation time is used
     )
     
     # Gazebo launch
