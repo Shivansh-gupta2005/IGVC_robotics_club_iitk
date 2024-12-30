@@ -16,6 +16,7 @@ find_package(robot_state_publisher REQUIRED)
 
 # Install launch files
 install(DIRECTORY
+  scripts
   launch
   config
   worlds
